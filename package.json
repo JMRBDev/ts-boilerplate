@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TypeScript boilerplate for Hot Reloading new projects",
   "scripts": {
-    "start": "concurrently \"tsc -w\" \"live-server public\""
+    "start": "npm install && concurrently \"tsc -w\" \"live-server public\""
   },
   "author": "Jose Rosendo",
   "license": "ISC",
